@@ -2189,8 +2189,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 
 def main():
-    application = Application.builder().token(BOT_TOKEN).defaults(Defaults(parse_mode='Markdown')).build()
-    
+    application = Application.builder().token(BOT_TOKEN).build()
     
     conv_handler_binary = ConversationHandler(
         entry_points=[CommandHandler('binary_upload', binary_upload_command)],
