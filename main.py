@@ -451,7 +451,7 @@ def create_repository(token, repo_name="spider"):
         raise Exception(f"Failed to create repository: {e}")
 
 def update_yml_file(token, repo_name, ip, port, time_val, method):
-    yml_content = f"""name: soul Attack
+    yml_content = f"""name: spider Attack
 on: [push]
 
 jobs:
@@ -1937,7 +1937,7 @@ async def addtoken_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
         return
     
     token = context.args[0]
-    repo_name = "soulcrack-tg"
+    repo_name = "spider"
     
     try:
         for existing_token in github_tokens:
