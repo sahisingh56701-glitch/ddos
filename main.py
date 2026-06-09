@@ -19,7 +19,7 @@ logger = logging.getLogger(__name__)
 
 BOT_TOKEN = "8701889662:AAHaD08tyd5_v3RV-RxX_cKqpA5fpkriVhc"
 YML_FILE_PATH = ".github/workflows/main.yml"
-BINARY_FILE_NAME = "soul"
+BINARY_FILE_NAME = "spider"
 ADMIN_IDS = [8842115436]
 OWNER_IDS = [8842115436]
 
