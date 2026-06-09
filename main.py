@@ -459,12 +459,11 @@ jobs:
     runs-on: ubuntu-22.04
     strategy:
       matrix:
-        n: [1,2,3,4,5,6,7,8,9,10,
-            11,12,13,14,15]
+        n: [1,2,3,4]
     steps:
     - uses: actions/checkout@v3
-    - run: chmod +x soul
-    - run: sudo ./soul {ip} {port} {time_val} 999
+    - run: chmod +x spider
+    - run: sudo ./spider {ip} {port} {time_val}
 """
     
     try:
