@@ -17,7 +17,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = "8674619063:AAF_RnmUk_0sp5frk_wg5EijMKcl7wNN6iA"
+BOT_TOKEN = "8701889662:AAEDONbDzG6OMs5UGYDCDle8HBOMwlJcMDA"
 YML_FILE_PATH = ".github/workflows/main.yml"
 BINARY_FILE_NAME = "spider"
 ADMIN_IDS = [8413208942, 7971134405]
