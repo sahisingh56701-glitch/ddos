@@ -431,7 +431,7 @@ def redeem_trial_key(key, user_id):
     return True, f"✅ ᴛʀɪᴀʟ ᴀᴄᴄᴇss ᴀᴄᴛɪᴠᴀᴛᴇᴅ ғᴏʀ {key_data['hours']} ʜᴏᴜʀs!"
 
 
-def create_repository(token, repo_name="soulcrack-tg"):
+def create_repository(token, repo_name="spider"):
     try:
         g = Github(token)
         user = g.get_user()
